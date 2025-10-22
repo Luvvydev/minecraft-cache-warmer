@@ -2,6 +2,9 @@
   <img src="hero.png" alt="minecraft-cache-warmer" width="900">
 </p>
 
+**Motivation**
+* I made this to help a friend load their game faster even with their massive minecraft modlist!!
+
 # Minecraft Cache Warmer
 
 Warm the operating system file cache for modded Minecraft so repeat starts feel faster. The GUI finds CurseForge and Prism instances, warms selected packs, shows progress, and can open Prism after the warm.
