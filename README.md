@@ -18,12 +18,12 @@ Warm the operating system file cache for modded Minecraft so repeat starts feel 
 3. Run
 powershell
    ```
-   python .\minecraft_cache_warmer_gui.py
+   python minecraft_gui.py
    ```
 
 ### MacOS
 ```
-/opt/homebrew/bin/python3.12 ./minecraft_cache_warmer_gui.py
+/opt/homebrew/bin/python3.12 minecraft_gui.py
 ```
 
 ### Why this helps
