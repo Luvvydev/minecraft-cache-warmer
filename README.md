@@ -1,6 +1,6 @@
 <p align="center">
   <img src="hero.png" alt="minecraft-cache-warmer" width="900">
-</p>hero
+</p>
 
 # Minecraft Cache Warmer
 
