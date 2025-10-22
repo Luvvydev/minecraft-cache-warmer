@@ -3,7 +3,7 @@
 </p>
 
 **Motivation**
-* I made this to help a friend load their game faster even with their massive minecraft modlist!!
+* I made this to help a friend load their game faster even with a massive minecraft modlist
 
 # Minecraft Cache Warmer
 
