@@ -24,9 +24,9 @@ Warm the operating system file cache for modded Minecraft so repeat starts feel 
 2. Open PowerShell in the repo folder  
 3. Run
 powershell
-   ```
-   python minecraft_gui.py
-   ```
+```
+python minecraft_gui.py
+```
 
 ### MacOS
 ```
