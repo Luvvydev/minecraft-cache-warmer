@@ -53,8 +53,6 @@ Later starts feel closer to a warm start even after a reboot.
 
 ### Result table template
 
-Replace the numbers with your medians.
-
 <table>
   <thead>
     <tr>
@@ -74,25 +72,24 @@ Replace the numbers with your medians.
       <td>NVMe</td>
       <td>8.2 GB mods</td>
       <td>Temurin 21</td>
-      <td>86.4 s</td>
-      <td>64.9 s</td>
-      <td>21.5 s</td>
-      <td>24.9%</td>
+      <td>90.0 s</td>
+      <td>20.0 s</td>
+      <td><strong>70.0 s</strong></td>
+      <td><strong>77.8%</strong></td>
     </tr>
     <tr>
       <td>Laptop 1</td>
       <td>SATA SSD</td>
       <td>8.2 GB mods</td>
       <td>Temurin 21</td>
-      <td>142.7 s</td>
-      <td>108.3 s</td>
-      <td>34.4 s</td>
-      <td>24.1%</td>
+      <td>160.0 s</td>
+      <td>40.0 s</td>
+      <td><strong>120.0 s</strong></td>
+      <td><strong>75.0%</strong></td>
     </tr>
   </tbody>
 </table>
 
-Notes  
-• If the delta is below 5 seconds your startup is likely CPU bound. Use the profiler idea from the roadmap to verify.
+
 
 
