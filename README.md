@@ -50,8 +50,49 @@ Later starts feel closer to a warm start even after a reboot.
 **Q:** Does this reduce total memory for the game?  
 **A:** The OS can evict cache pages under pressure. If you run low on RAM it will drop old cache before it starves the game.
 
-### Note
 
-After you change mods or resource packs, run the warm again.
+### Result table template
+
+Replace the numbers with your medians.
+
+<table>
+  <thead>
+    <tr>
+      <th>Machine</th>
+      <th>Storage</th>
+      <th>Instance size</th>
+      <th>Java</th>
+      <th>T0 to Menu cold</th>
+      <th>T0 to Menu warm</th>
+      <th>Delta</th>
+      <th>Delta percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Desktop 1</td>
+      <td>NVMe</td>
+      <td>8.2 GB mods</td>
+      <td>Temurin 21</td>
+      <td>86.4 s</td>
+      <td>64.9 s</td>
+      <td>21.5 s</td>
+      <td>24.9%</td>
+    </tr>
+    <tr>
+      <td>Laptop 1</td>
+      <td>SATA SSD</td>
+      <td>8.2 GB mods</td>
+      <td>Temurin 21</td>
+      <td>142.7 s</td>
+      <td>108.3 s</td>
+      <td>34.4 s</td>
+      <td>24.1%</td>
+    </tr>
+  </tbody>
+</table>
+
+Notes  
+• If the delta is below 5 seconds your startup is likely CPU bound. Use the profiler idea from the roadmap to verify.
 
 
