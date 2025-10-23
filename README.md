@@ -51,7 +51,7 @@ Later starts feel closer to a warm start even after a reboot.
 **A:** The OS can evict cache pages under pressure. If you run low on RAM it will drop old cache before it starves the game.
 
 
-### Result table template
+### Result table
 
 <table>
   <thead>
