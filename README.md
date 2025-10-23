@@ -3,7 +3,8 @@
 </p>
 
 **Motivation**
-This was a requested utility tool created to improve load times for Minecraft installations with substantial mod collections
+
+**This was a requested utility tool created to improve load times for Minecraft installations with substantial mod collections**
 
 # Minecraft Cache Warmer
 
