@@ -41,14 +41,14 @@ python minecraft_gui.py
 
 ### FAQ
 
-* Q: Why do my results vary
-* A: JVM warmup, concurrent downloads, and background processes introduce variance. Use multiple trials and report medians.
+Q: Why do my results vary
+A: JVM warmup, concurrent downloads, and background processes introduce variance. Use multiple trials and report medians.
 
-* Q: Does this help after I already launched once
-* A: Usually the second launch is already warm. The tool is useful after a reboot or when switching large packs.
+Q: Does this help after I already launched once
+A: Usually the second launch is already warm. The tool is useful after a reboot or when switching large packs.
 
-* Q: Does this reduce total memory for the game
-* A: The OS can evict cache pages under pressure. If you run low on RAM it will drop old cache before it starves the game.
+Q: Does this reduce total memory for the game
+A: The OS can evict cache pages under pressure. If you run low on RAM it will drop old cache before it starves the game.
 
 ### Note
 
