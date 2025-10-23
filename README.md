@@ -38,7 +38,7 @@ python minecraft_gui.py
 
 Operating systems keep recently read data in memory.  
 By reading mod jars, assets, and config files in advance, the next game start avoids many disk seeks.  
-Later starts feel closer to a warm start even after a reboot.
+
 
 
 ### Result table
