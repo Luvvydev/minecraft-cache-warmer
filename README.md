@@ -33,7 +33,7 @@ python minecraft_gui.py
 /opt/homebrew/bin/python3.12 minecraft_gui.py
 ```
 
-Why this helps
+### Why this helps
 
 Operating systems keep recently read data in memory.
 By reading mod jars, assets, and config files in advance, the next game start avoids many disk seeks.
@@ -50,7 +50,7 @@ A: Usually the second launch is already warm. The tool is useful after a reboot 
 Q: Does this reduce total memory for the game
 A: The OS can evict cache pages under pressure. If you run low on RAM it will drop old cache before it starves the game.
 
-Note
+### Note
 
 After you change mods or resource packs, run the warm again.
 
